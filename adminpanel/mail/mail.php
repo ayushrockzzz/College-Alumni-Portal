@@ -36,14 +36,14 @@ $mail = new aawez();
   //Set this to true if SMTP host requires authentication to send email
   $mail->SMTPAuth = TRUE;
   //Provide username and password
-  $mail->Username = "alumniaawez@gmail.com";
-  $mail->Password = "aawez123123";
+  $mail->Username = "ayushsatyam23@gmail.com";
+  $mail->Password = "9031293152";
   //If SMTP requires TLS encryption then set it
   $mail->SMTPSecure = "false";
   $mail->Port = 587;
   //Set TCP port to connect to
   
-  $mail->From = "alumniportal@gmail.com";
+  $mail->From = "ayushsatyam23@gmail.com";
   $mail->FromName = "AlumniPortal";
   
   $mail->addAddress($email);
